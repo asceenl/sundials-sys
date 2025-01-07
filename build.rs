@@ -67,7 +67,7 @@ impl IgnoreMacros {
 
 #[derive(Debug)]
 struct Library {
-    /// Location if the include files.
+    /// Location of the include files.
     inc: Option<String>,
     /// Location of the library.
     lib: Option<String>,
